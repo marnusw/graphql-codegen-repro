@@ -1,0 +1,18 @@
+{
+  "name": "graphql-codegen-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "generate": "graphql-codegen --config codegen.yml"
+  },
+  "dependencies": {
+    "@graphql-codegen/cli": "1.21.3",
+    "@graphql-codegen/typescript": "^1.21.1",
+    "@graphql-codegen/typescript-resolvers": "^1.19.0",
+    "@types/lodash": "^4.14.168",
+    "apollo-server": "^2.21.2",
+    "graphql": "^15.5.0",
+    "lodash": "^4.17.21"
+  }
+}
